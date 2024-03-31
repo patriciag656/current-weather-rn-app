@@ -7,7 +7,25 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "Weather_App_RN",
-    "slug": "Weather_App_RN"
+    "name": "Current Weather App",
+    "slug": "Current-Weather-App",
+    "icon": "./assets/thermometer.jpg",
+    "description": "App that uses the OopenWeather API to display current weather at the users request, the application supports searches by city name, zip code and even lat and lon values!",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "313fcfd1-80f8-49d2-88ef-3ef143e0486a"
+      }
+    },
+    "runtimeVersion": {
+		"policy": "nativeVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/313fcfd1-80f8-49d2-88ef-3ef143e0486a"
+    },
+    "android": {},
+    "ios": {}
   }
 }
